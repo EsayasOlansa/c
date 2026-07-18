@@ -1,43 +1,34 @@
-# ⚡️ C From Zero Learning Journey 🚀
+# C Programming: From Zero to Mastery
 
-Welcome to my core repository for mastering the C programming language from scratch! This repository documents my hands-on practice, logic building, and daily coding progression as I dive deep into system-level software engineering concepts.
+A clean, focused repository documenting my daily progress, logic building, and hands-on practice as I master low-level programming in C. 
 
----
-
-## 🛠️ Repository Features & Fixes
-
-*   **Optimized Git Configuration:** Fully integrated with a production-ready `.gitignore` to automatically filter out bulky compiler artifacts, executable binaries, and heavy macOS `.dSYM` debug folders.
-*   **Pure Codebase:** Keeps the remote repository fast, lightweight, and focused purely on clean source files.
+The goal here is simple: build a rock-solid foundation in system-level concepts, memory management, and clean algorithmic logic.
 
 ---
 
-## 📂 Current Progress & Files
+## 📂 Project Breakdown
 
-Here is a breakdown of the core programs implemented so far:
+Here is what I have built and implemented so far:
 
-| File Name | Purpose / Core Logic | Key Concept Covered |
-| :--- | :--- | :--- |
-| `weekday.c` | Translates a user input integer (1–7) into its corresponding calendar day. | `switch-case` conditional handling, input validation. |
-| `agecheck.c` | Filters user profiles based on specific age requirements. | Relational operators, standard console input/output. |
-| `calculator.c` | Executes multi-operation arithmetic parsing. | Basic functional algorithms, variables, and math types. |
+*   **`weekday.c`** – A clean control-flow script that maps integers (1-7) to corresponding calendar days using optimized `switch-case` logic.
+*   **`agecheck.c`** – Relational logic handling user input validation and boundary testing.
+*   **`calculator.c`** – Core arithmetic operations focusing on clean variable scope and math types.
+
+*Note: This repository is fully optimized with a custom `.gitignore` to keep the codebase lightweight by automatically filtering out local macOS compilation artifacts (`.dSYM`) and raw binary executables.*
 
 ---
 
-## 💻 Tech Stack & Environment
+## 🛠️ Environment & Tools
 
-*   **Language:** C (C11/C17 standard compliance)
-*   **IDE/Editor:** Visual Studio Code (VS Code)
+*   **Language:** C (C11/C17 standard)
+*   **Editor:** Visual Studio Code
 *   **Compiler:** Clang / GCC via macOS Terminal
-*   **Version Control:** Git & GitHub
+*   **Version Control:** Git
 
 ---
 
-## 🚀 Future Roadmap
+## 🚀 Next Steps
 
-*   [ ] Advanced data structures (Pointers, Memory allocation, Linked lists).
-*   [ ] System architecture & File handling optimization.
-*   [ ] Networking fundamentals, socket implementations, and raw data requests in low-level systems.
-
----
-
-*“Code is like humor. When you have to explain it, it’s bad.”* — Keep pushing, keep compiling! 💻🔥
+*   [ ] Master Pointers & Dynamic Memory Allocation (`malloc`, `calloc`, `free`)
+*   [ ] Implement low-level data structures (Linked Lists, Stacks, Queues)
+*   [ ] Transition into network programming, system sockets, and multi-threading
