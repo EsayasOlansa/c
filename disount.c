@@ -11,23 +11,23 @@ int main(){
 
     if(isStudent){
         if(isSenior){
-            printf("you get student discount by 10%");
-            printf("you get senior discount by 18%");
+            printf("you get student discount by 10\n");
+            printf("you get senior discount by 18\n");
             price *= 0.1;
             price *= 0.18;
 
         }
         else{
-            printf("you get student discount by 10%");
-            prince *= 0.1;
+            printf("you get student discount by 10\n");
+            price *= 0.1;
         }
     }
     else{
         if(isSenior){
-            printf("you get senior s=discount by 18%");
+            printf("you get senior s=discount by 18\n");
             price *=0.8;
         }
     }
-    printf("The price of ticket is %.2f",price)
+    printf("The price of ticket is %.2f",price);
     return 0;
 }
