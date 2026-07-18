@@ -1,0 +1,14 @@
+# Ignore macOS debug symbols
+*.dSYM/
+
+# Ignore compiled binary executables (if you compile without an extension)
+agecheck
+calculator
+condition1
+convereter
+disount
+main
+shopping
+tempreature
+tempreaturecheck
+weekday
