@@ -12,12 +12,12 @@ bool agecheck(int num){
 
 }
 int main(){
-    int age = 21;
+    int age = 15;
     if(agecheck(age)){
         printf("you are above +18 you can sign up");
     }
     else{
-        printf("you under +18 u cant sign up");
+        printf("you under +18 you can't sign up");
     }
     return 0;
 }
