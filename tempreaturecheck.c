@@ -2,9 +2,11 @@
 #include <stdbool.h>
 
 int main(){
-    int scale = 30;
+    int scale = 0;
     bool isSunny=false;
 
+    printf("Enter today tempreature in `C: ");
+    scanf("%d",&scale);
     if(scale >= 30 && scale <=0 && isSunny){
         printf("today tempreature is bad but not sunnny");
     }
